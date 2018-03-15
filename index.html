@@ -17,7 +17,14 @@
 
   <!--icon-->
   <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!--animation css-->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--bx slider css-->
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 
 
 
@@ -96,8 +103,8 @@
             <div class="header-btns">
 
               <!--header buttons-->
-              <a class="btn btn-download" href="#">Download</a>
-              <a class="btn btn-tour" href="#">Take A Tour<i class="ion-android-arrow-dropdown"></i></a>
+              <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+              <a class="btn btn-tour wow fadeInRight" href="#">Take A Tour<i class="ion-android-arrow-dropdown"></i></a>
 
             </div>
           </div>
@@ -146,14 +153,14 @@
           <div class="col-md-6">
 
             <!--about iphone-->
-            <div class="about-iphone">
+            <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
               <img src="img/about-iphone.png" alt="iphone">
 
             </div>
 
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
 
             <!--why choose us title-->
             <div class="choose-us-title">
@@ -166,7 +173,7 @@
             <div class="choose-us-des">
 
               <!-- choose us item 1-->
-              <div class="choose-us-item">
+              <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
                 <!--CHOOSE US ITEM ICON-->
                 <div><i class="ion-ios-bolt"></i></div>
@@ -178,7 +185,7 @@
               </div>
 
               <!-- choose us item 2-->
-              <div class="choose-us-item">
+              <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
                 <!--CHOOSE US ITEM ICON-->
                 <div><i class="ion-speakerphone"></i></div>
@@ -190,7 +197,7 @@
 
 
               <!-- choose us item 3-->
-              <div class="choose-us-item">
+              <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
                 <!--CHOOSE US ITEM ICON-->
                 <div><i class="ion-flag"></i></div>
@@ -212,7 +219,7 @@
     <div class="testimonial-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow bounceInDown">
             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
               <!--indicatores-->
@@ -281,7 +288,7 @@
     <div class="features-inner-wrapper">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
             <!--LEFT feature item 01-->
             <div class="left-feature-item">
@@ -319,11 +326,11 @@
 
           <div class="col-md-4">
             <div class="feature-iphone">
-              <img src="img/iphone-02.png" alt="feature iphone">
+              <img class="wow bounceIn" data-wow-duration="1s" src="img/iphone-02.png" alt="feature iphone">
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
 
             <!--right-feature item 01-->
             <div class="right-feature-item">
@@ -366,7 +373,7 @@
   <!--purchase now-->
   <section class="purchase-now">
     <div class="container">
-      <div class="row">
+      <div class="row wow fadeInLeftBig" data-wow-duration="1s">
         <div class="col-md-9">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
         </div>
@@ -392,18 +399,24 @@
     </div>
 
     <div class="screen-slider">
-      <div class="carousel">
-        <div class="item">
-          <img src="img/screen-01.png" width="60" height="60" alt="screen">
-        </div>
-        <div class="item">
-          <img src="img/screen-02.png" width="60" height="60" alt="screen">
-        </div>
-        <div class="item">
-          <img src="img/screen-03.png" width="60" height="60" alt="screen">
-        </div>
-        <div class="item">
-          <img src="img/screen-04.png" width="60" height="60" alt="screen">
+      <div class="container">
+        <div class="row">
+
+          <div class="bxslider">
+
+            <div class="item">
+              <img src="img/screen-01.png" alt="screen">
+            </div>
+            <div class="item">
+              <img src="img/screen-02.png" alt="screen">
+            </div>
+            <div class="item">
+              <img src="img/screen-03.png" alt="screen">
+            </div>
+            <div class="item">
+              <img src="img/screen-04.png" alt="screen">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -595,6 +608,17 @@
   <!--Bootstrap Javascript-->
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <!--bx slider js-->
+  <script src="js/jquery.bxslider.min.js"></script>
+
+  <!--ad js counter lib-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!--wow js-->
+  <script src="js/wow.min.js"></script>
+
   <!--custom js-->
   <script src="js/custom.js"></script>
 </body>
