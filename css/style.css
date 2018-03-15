@@ -129,17 +129,17 @@ p{
 }
 
 .btn-download,.btn-download:focus,.btn-download:active,.btn-download:visited{
-background: transparent;
-border-color: #129CF3;
-padding-bottom: 10px;
-padding-left: 30px;
-padding-right: 30px;
-font-size: 19px;
-text-transform: uppercase;
-border-radius: 3px;
--webkit-transition: all 1s;
--moz-transition: all 1s;
--o-transition: all 1s;
+  background: transparent;
+  border-color: #129CF3;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
 }
 
 .btn-download:hover{
@@ -161,7 +161,7 @@ border-radius: 3px;
 }
 
 .btn-tour:hover{
-color: #fff;
+  color: #fff;
 }
 
 .btn-tour i{
@@ -249,13 +249,13 @@ color: #fff;
 
 .testimonial{
   background-image: url("../img/2.jpg");
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
--webkit-background-size: cover;
-background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
 }
 
 .testimonial-overlay{
@@ -378,14 +378,14 @@ background-position: 50% 50%;
   color: #333;
   font-size: 16px;
   font-weight: 300;
-line-height: 25px;
+  line-height: 25px;
 }
 
 /*----------purchase now-------*/
 .purchase-now{
-background-color: #1a1a1a;
-padding-top: 100px;
-padding-bottom: 100px;
+  background-color: #1a1a1a;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .purchase-now p{
