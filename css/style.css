@@ -89,7 +89,7 @@ p{
 }
 /*----------header-----------*/
 .header{
-  background-image: url("../img/1.jpeg");
+  background-image: url("../img/the-walking-dead-season-8.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -248,7 +248,7 @@ p{
 /*----------testimonial-------*/
 
 .testimonial{
-  background-image: url("../img/2.jpg");
+  background-image: url("../img/the_walking_dead_negan_wallpaper_by_saxtop-datzuyb.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -416,7 +416,7 @@ p{
 
 /*---------counter---------*/
 .counter{
-  background-image: url("../img/3.jpeg");
+  background-image: url("../img/TWD-retrospective-special-1600x600.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   -moz-background-size: cover;
@@ -524,7 +524,7 @@ p{
   color: #D7DADB;
   font-size: 16px;
 }
-.available-on-item:hover, .available-on-inner{
+.available-on-item:hover, div.available-on-inner{
   opacity: 1;
 }
 
